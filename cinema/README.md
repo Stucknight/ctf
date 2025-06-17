@@ -87,9 +87,9 @@ This URL will be used to **receive the contents of `flag.txt`**.
 
 ---
 
-### 📝 Modify the Exploit Payload
+### 📝 Modify the Payload
 
-In the script's `generate_payload()` function, modify the Java payload to read `flag.txt` and send it to your webhook:
+In the script's `generate_payload()` function, modify the Java payload code to read `flag.txt` and send it to your webhook:
 
 ```java
 program = """
